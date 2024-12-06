@@ -1,0 +1,723 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.btn{
+   list-style-type: none; 
+   display: flex;
+   justify-content: center;
+   gap: 30px;
+   margin-top: 20px;
+   background-color: white;
+   
+}
+.btn button{
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    
+}
+
+/* first */
+.first{
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+.head1{
+    position: absolute;
+    left: 640px;
+    top: 400px;
+    font-size: 26px;
+}
+.para1{
+    position: absolute;
+    left: 570px;
+    top: 460px;
+    font-size: 26px;
+}
+.button1 button{
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    border: 1px solid #1a75ff;
+    background-color: #1a75ff;
+    border-radius: 20px;
+    padding: 8px 16px;
+    color: white;
+    font-size: 20px;
+}
+.button1{
+    position: absolute;
+    left: 700px;
+    top: 510px;
+}
+/*  */
+
+
+/* second */
+.head2{
+    position: absolute;
+    left: 610px;
+    top: 670px;
+    color: white;
+    font-size: 26px;
+}
+.para2{
+    position: absolute;
+    left: 630px;
+    top: 735px;
+    color: white;
+    font-size: 26px;
+}
+.button2 button{
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    border: 1px solid #1a75ff;
+    background-color: #1a75ff;
+    border-radius: 20px;
+    padding: 8px 16px;
+    color: white;
+    font-size: 20px;
+}
+.button2{
+    position: absolute;
+    left: 650px;
+    top: 790px;
+}
+.buy2 button{
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+    border: 1px solid #1a75ff;
+    border-radius: 20px;
+    padding: 8px 16px;
+    color: #1a75ff;
+    font-size: 20px;
+    
+}
+.buy2 :hover{
+    background-color: #1a75ff;
+    color: white;
+}
+.buy2{
+    position: absolute;
+    left: 800px;
+    top: 790px;
+}
+.second{
+    margin-bottom: 10px;
+}
+/*  */
+
+
+/* third */
+.head3{
+    position: absolute;
+    left: 610px;
+    top: 1220px;
+    color: white;
+    font-size: 26px;
+}
+.para3{
+    position: absolute;
+    left: 630px;
+    top: 1285px;
+    color: white;
+    font-size: 26px;
+}
+.button3 button{
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 20px;
+    padding: 8px 16px;
+    color: black;
+    font-size: 20px;
+}
+.button3{
+    position: absolute;
+    left: 650px;
+    top: 1340px;
+}
+.buy3 button{
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 8px 16px;
+    color: white;
+    font-size: 20px;
+}
+.buy3 :hover{
+    background-color: white;
+    color: black;
+}
+.buy3{
+    position: absolute;
+    left: 800px;
+    top: 1340px;
+}
+.third{
+    margin-bottom: 10px;
+}
+/*  */
+
+
+/* fourth */
+.head4{
+    display: flex;
+    gap: 10px;
+}
+.logo4{
+    position: absolute;
+    left: 330px;
+    top: 1800px;
+}
+.fourth{
+    margin-left: 10px;
+   flex: 1;
+   margin-bottom: 10px;
+}
+.para4{
+    position: absolute;
+    left: 230px;
+    top: 1835px;
+    color: black;
+    font-size: 26px;
+}
+.par4{
+    position: absolute;
+    left: 230px;
+    top: 2210px;
+    color: black;
+    font-size: 26px;
+}
+.button4 button{
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    border: 1px solid #1a75ff;
+    background-color: #1a75ff;
+    border-radius: 20px;
+    padding: 8px 16px;
+    color: white;
+    font-size: 16px;  
+}
+.button4{
+    position: absolute;
+    left: 280px;
+    top: 1880px;
+}
+.buy4 button{
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+    border: 1px solid #1a75ff;
+    border-radius: 20px;
+    padding: 8px 16px;
+    color:#1a75ff;
+    font-size: 16px;
+}
+.buy4 :hover{
+    background-color: #1a75ff;
+    color: white;
+}
+.buy4{
+    position: absolute;
+    left: 420px;
+    top: 1880px;
+}
+
+
+/* fifth */
+.fifth{
+    flex: 1;
+   margin-right: 10px;  
+}
+.button5 button{
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    border: 1px solid #1a75ff;
+    background-color: #1a75ff;
+    border-radius: 20px;
+    padding: 8px 16px;
+    color: white;
+    font-size: 16px;
+}
+.button5{
+    position: absolute;
+    left: 1030px;
+    top: 2210px;
+}
+.buy5 button{
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+    border: 1px solid #1a75ff;
+    border-radius: 20px;
+    padding: 8px 16px;
+    color:#1a75ff;
+    font-size: 16px;
+}
+.buy5 :hover{
+    background-color: #1a75ff;
+    color: white;
+}
+.buy5{
+    position: absolute;
+    left: 1170px;
+    top: 2210px;
+}
+.para5{
+    position: absolute;
+    left: 1040px;
+    top: 2055px;
+    color: white;
+    font-size: 22px;
+}
+.par5{
+    position: absolute;
+    left: 1020px;
+    top: 2110px;
+    color: white;
+    font-size: 24px;
+}
+.pa5{
+    position: absolute;
+    left: 930px;
+    top: 2138px;
+    color: white;
+    font-size: 24px;
+}
+/*  */
+
+
+/* sixth */
+.head6{
+    display: flex;
+    gap: 10px;
+}
+.sixth{
+    margin-left: 10px;
+   flex: 1;
+   margin-bottom: 10px;
+}
+.logo6{
+    position: absolute;
+    left: 330px;
+    top: 2350px;
+} 
+.button6 button{
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    border: 1px solid #1a75ff;
+    background-color: #1a75ff;
+    border-radius: 20px;
+    padding: 8px 16px;
+    color: white;
+    font-size: 16px;
+}
+.button6{
+    position: absolute;
+    left: 290px;
+    top: 2460px;
+}
+.buy6 button{
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+    border: 1px solid #1a75ff;
+    border-radius: 20px;
+    padding: 8px 16px;
+    color:#1a75ff;
+    font-size: 16px;
+}
+.buy6 :hover{
+    background-color: #1a75ff;
+    color: white;
+}
+.buy6{
+    position: absolute;
+    left: 420px;
+    top: 2460px;
+}
+.para6{
+    position: absolute;
+    left: 300px;
+    top: 2410px;
+    color: black;
+    font-size: 26px;
+}
+/*  */
+
+
+/* seven */
+.seven{
+    flex: 1;
+   margin-right: 10px;
+    
+}
+.head7{
+    position: absolute;
+    left: 1010px;
+    top: 2350px;
+    color: black;
+    font-size: 20px;
+    
+}
+.para7{
+    position: absolute;
+    left: 1000px;
+    top: 2400px;
+    color: black;
+    font-size: 24px;  
+}
+.button7 button{
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    border: 1px solid #1a75ff;
+    background-color: #1a75ff;
+    border-radius: 20px;
+    padding: 8px 16px;
+    color: white;
+    font-size: 16px;
+}
+.button7{
+    position: absolute;
+    left: 1020px;
+    top: 2440px;
+}
+.buy7 button{
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+    border: 1px solid #1a75ff;
+    border-radius: 20px;
+    padding: 8px 16px;
+    color:#1a75ff;
+    font-size: 16px;
+}
+.buy7 :hover{
+    background-color: #1a75ff;
+    color: white;
+}
+.buy7{
+    position: absolute;
+    left: 1160px;
+    top: 2440px;
+}
+/*  */
+
+/* eight */
+.head8{
+    display: flex;
+    gap: 10px;
+}
+.eight{
+    margin-left: 10px;
+   flex: 1;
+   margin-bottom: 10px;
+}
+.logo8{
+    position: absolute;
+    left: 290px;
+    top: 2920px;
+} 
+.button8 button{
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    border: 1px solid #1a75ff;
+    background-color: #1a75ff;
+    border-radius: 20px;
+    padding: 8px 16px;
+    color: white;
+    font-size: 16px;
+}
+.button8{
+    position: absolute;
+    left: 290px;
+    top: 3050px;
+}
+.para8{
+    position: absolute;
+    left: 190px;
+    top: 2970px;
+    font-size: 26px;
+}
+.par8{
+    position: absolute;
+    left: 220px;
+    top: 3000px;
+    font-size: 26px;
+}
+.nine{
+    flex: 1;
+    margin-right: 10px;
+     
+}
+.logo9{
+    position: absolute;
+    left: 1060px;
+    top: 2920px;
+} 
+.button9 button{
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    border: 1px solid #1a75ff;
+    background-color: #1a75ff;
+    border-radius: 20px;
+    padding: 8px 16px;
+    color: white;
+    font-size: 16px;
+}
+.button9{
+    position: absolute;
+    left: 1000px;
+    top: 3050px;
+}
+.buy9 button{
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+    border: 1px solid #1a75ff;
+    border-radius: 20px;
+    padding: 8px 16px;
+    color:#1a75ff;
+    font-size: 16px;
+}
+.buy9 :hover{
+    background-color: #1a75ff;
+    color: white;
+}
+.buy9{
+    position: absolute;
+    left: 1140px;
+    top: 3050px;
+}
+.para9{
+    position: absolute;
+    left: 958px;
+    top: 2970px;
+    color: black;
+    font-size: 26px;
+}
+.par9{
+    position: absolute;
+    left: 1010px;
+    top: 3000px;
+    font-size: 26px;
+}
+.ten{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.button10 button{
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 20px;
+    padding: 8px 16px;
+    color: black;
+    font-size: 20px;
+}
+.button10{
+    position: absolute;
+    left: 100px;
+    top: 3880px;
+}
+.para10{
+    position: absolute;
+    left: 270px;
+    top: 3885px;
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+}
+.par10{
+    position: absolute;
+    left: 375px;
+    top: 3885px;
+    font-size: 26px;
+    color: white;
+}
+.head11{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+.eleven{
+    flex: 1;
+    margin-left: 10px;
+}
+.twelve{
+    flex: 1;
+}
+.thirten{
+    flex: 1;
+    margin-right: 10px;
+}
+.color{
+    background-color: rgb(249, 247, 247);
+}
+.paragraph{
+    
+    color: gray;
+}
+
+.paragraph li{
+    width: 60%;
+    list-style-type: decimal;
+    list-style-position: inside;
+     
+     margin-left: auto;
+    margin-right: auto;  
+    padding-top: 10px; 
+}
+.para11{
+    padding-top: 10px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;   
+}
+.para12{
+    padding-top: 10px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;  
+}
+.para13{
+    padding-top: 10px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;  
+}
+.para14{
+    padding-top: 10px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;  
+}
+.para15{
+    padding-top: 10px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;  
+}
+.para16{
+    padding-top: 10px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;  
+    padding-bottom: 20px;
+    
+}
+.line{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid gray;
+}
+.parentlist{
+   
+    display: flex;
+  
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.parentlist li{
+    list-style-type: none;
+    display: flex;
+    
+}
+.list1{
+    flex: 1;
+}
+.list2{
+    flex: 1;
+}
+.list3{
+    flex: 1;
+}
+.list4{
+    flex: 1;
+}
+.list5{
+    flex: 1;
+}
+.list1 li{
+    padding: 5px;
+    color: gray;
+}
+.list2 li{
+    padding: 5px;
+    color: gray;
+}
+.list3 li{
+    padding: 5px;
+    color: gray;
+}
+.list4 li{
+    padding: 5px;
+    color: gray;
+}
+.list5 li{
+    padding: 5px;
+    color: gray;
+}
+.p{
+    margin-top: 20px;
+    color: gray;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    
+}
+.lin1{
+    width: 60%;
+    border-bottom: 1px solid gray;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.p1{
+    color: gray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
